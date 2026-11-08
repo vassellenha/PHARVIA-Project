@@ -4,7 +4,7 @@
 
 <img src="docs/readme/ticker.svg" width="100%" alt="Technology ticker: HTML5, Tailwind CSS, Vanilla JavaScript, Leaflet 1.9.4, OpenStreetMap tiles, BarcodeDetector API, localStorage, Material Symbols, Plus Jakarta Sans.">
 
-<img src="docs/readme/menu-top.svg" width="100%" alt="Menu: jump to a section of the README.">
+<img src="docs/readme/menu-top.svg" width="100%" alt="Explore PHARVIA: pick a section to jump straight to it.">
 
 <a href="#the-app"><img src="docs/readme/tile-01.svg" width="19%" alt="Menu tile 1: The app."></a>
 <a href="#screens"><img src="docs/readme/tile-02.svg" width="19%" alt="Menu tile 2: Screens."></a>
@@ -33,7 +33,7 @@ The whole project is one static page, `index.html`, plus a few images in `assets
 
 The home screen gathers the main actions: scan a medicine, find a drop-off point, open Eco-Points, and read short education articles. The bottom navigation switches between the home, deposit, drop-off point, Eco-Points, activity and profile views.
 
-Three education cards ship with the page. Their artwork is in `assets/` and plays below as an archive slideshow (the titles here are translated to English; the app shows them in Indonesian).
+Three education cards ship with the page. Their artwork is in `assets/` and plays below as a slideshow (the titles here are translated to English; the app shows them in Indonesian).
 
 <div align="center">
 
@@ -57,11 +57,11 @@ These are real screenshots of `index.html` rendered at phone size with the built
 
 <img src="docs/readme/banner-03.svg" width="100%" alt="Section 03: Eco-Points and rules.">
 
-The bench below replays the formulas used in the page's script. Every returned item adds 20 points to the balance. The balance starts at 130 points in the sample data. The level is read from the balance: Eco Starter below 400, Eco Guardian from 400, Eco Champion from 1000.
+The calculator below replays the formulas used in the page's script. Every returned item adds 20 points to the balance. The balance starts at 130 points in the sample data. The level is read from the balance: Eco Starter below 400, Eco Guardian from 400, Eco Champion from 1000.
 
 <div align="center">
 
-<img src="docs/readme/bench.svg" width="100%" alt="Eco-Points bench. It cycles through returning 1, 14 and 44 items. The totals are 150, 410 and 1010 points, which map to Eco Starter, Eco Guardian and Eco Champion.">
+<img src="docs/readme/bench.svg" width="100%" alt="Eco-Points calculator. It cycles through returning 1, 14 and 44 items. The totals are 150, 410 and 1010 points, which map to Eco Starter, Eco Guardian and Eco Champion.">
 
 </div>
 
@@ -135,7 +135,7 @@ The balance, the history of earned and spent points and the reward catalog share
 
 <img src="docs/readme/scene.svg" width="100%" alt="Illustration of a cleanroom at sunset where a transit container rolls past three waypoints: deposit saved, Diproses and Selesai.">
 
-<img src="docs/readme/pipeline.svg" width="100%" alt="The return path: scan or enter, deposit list, drop-off point, status, points. A gold star travels the path and each step lights up as it arrives.">
+<img src="docs/readme/pipeline.svg" width="100%" alt="The return path: scan or enter, deposit list, drop-off point, status, points. A marker travels the path and each step lights up as it arrives.">
 
 </div>
 
