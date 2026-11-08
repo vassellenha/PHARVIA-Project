@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 160" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="24" y1="8" x2="337" y2="158" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#075985"/>
+      <stop offset="1" stop-color="#06BFA5"/>
+    </linearGradient>
+    <linearGradient id="water" x1="60" y1="97" x2="346" y2="169" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B3FFF0"/>
+      <stop offset="1" stop-color="#38D8CB"/>
+    </linearGradient>
+    <linearGradient id="pill" x1="225" y1="36" x2="286" y2="94" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff"/>
+      <stop offset=".5" stop-color="#fff"/>
+      <stop offset=".5" stop-color="#A6F4E4"/>
+      <stop offset="1" stop-color="#A6F4E4"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h360v160H0z"/>
+  <circle cx="327" cy="24" r="66" fill="#fff" fill-opacity=".08"/>
+  <circle cx="42" cy="13" r="47" fill="#fff" fill-opacity=".07"/>
+  <path d="M0 108c43-17 73-21 112-10 38 11 64 25 102 19 45-7 83-32 146-20v63H0v-52Z" fill="url(#water)" fill-opacity=".86"/>
+  <path d="M0 129c44-14 79-15 115-5 39 11 66 22 103 15 51-10 82-31 142-21" stroke="#fff" stroke-opacity=".7" stroke-width="3"/>
+  <path d="M77 32c0 16-12 27-25 27S27 48 27 32c0-14 25-34 25-34s25 20 25 34Z" fill="#D7FFF5" fill-opacity=".93"/>
+  <path d="M52 47c4-7 10-11 17-14" stroke="#53D8C4" stroke-linecap="round" stroke-width="4"/>
+  <g transform="rotate(-31 253 69)">
+    <rect x="211" y="48" width="84" height="36" rx="18" fill="#064A67" fill-opacity=".22"/>
+    <rect x="207" y="42" width="84" height="36" rx="18" fill="url(#pill)"/>
+    <path d="M249 42v36" stroke="#0D7180" stroke-opacity=".45" stroke-width="2"/>
+    <path d="M220 56h17" stroke="#0F4C81" stroke-linecap="round" stroke-width="3"/>
+  </g>
+  <path d="m309 95 5 10 11 2-8 7 2 11-10-5-10 5 2-11-8-7 11-2 5-10Z" fill="#E8FFF8" fill-opacity=".82"/>
+</svg>
